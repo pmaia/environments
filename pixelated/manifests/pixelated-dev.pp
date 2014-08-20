@@ -34,6 +34,10 @@ package {
 	"npm":
 	  ensure => installed,
 	  provider => apt;
+
+	"ack-grep":
+	  ensure => installed,
+	  provider => apt;
 	
 	"bundler":
 	  ensure   => installed,
