@@ -1,4 +1,8 @@
 package { 
+  "exuberant-ctags":
+    ensure   => installed,
+    provider => apt;
+
 	"git":
 	  ensure   => installed,
 	  provider => apt;
